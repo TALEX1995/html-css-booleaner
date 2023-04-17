@@ -65,3 +65,23 @@ section {
 ul {
     margin-left: 20px;
 }
+
+table {
+    width: 100%;
+}
+
+.first-and-second-cell {
+    width: 25%;
+}
+
+.third-cell {
+    width: 50%;
+}
+
+thead {
+    background-color: #20a9e5;
+}
+
+tbody > tr:first-child, tr:nth-child(3) {
+    background-color: #b1e5f2;
+}
